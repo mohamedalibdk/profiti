@@ -9,19 +9,30 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDJsFxjQQjcmKCvfs-hGHi4HvhG9cvdK-g"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDJsFxjQQjcmKCvfs-hGHi4HvhG9cvdK-g"
+        }
+      }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDJsFxjQQjcmKCvfs-hGHi4HvhG9cvdK-g"
+      }
     },
     "plugins": [
       "expo-router",
@@ -37,6 +48,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "googleMapsApiKey": "AIzaSyDJsFxjQQjcmKCvfs-hGHi4HvhG9cvdK-g",
+      "amplitude": {
+        "defaultTracking": true
+      }
     }
   }
 }

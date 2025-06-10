@@ -3,5 +3,9 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "files.exclude": {
+    "": true
   }
 }
