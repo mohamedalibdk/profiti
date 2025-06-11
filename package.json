@@ -8,7 +8,8 @@
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "lint": "expo lint"
+    "lint": "expo lint",
+     "web:build": "expo export --platform web"
   },
   "dependencies": {
     "@amplitude/analytics-browser": "^2.17.6",
