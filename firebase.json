@@ -5,8 +5,12 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/index.html",
+        "projects": {
+          "default": "test-64d29"
+        }
       }
+      
     ]
   }
 }
